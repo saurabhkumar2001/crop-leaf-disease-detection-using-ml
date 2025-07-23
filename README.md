@@ -16,13 +16,16 @@ matplotlib==3.7.2
 seaborn==0.13.0  
 pandas==2.1.0  
 streamlit  
-librosa==0.10.1
-
-##To install all dependencies:
+librosa==0.10.1  
+To install all dependencies:
+bash
+Copy
+Edit
 pip install -r requirements.txt
-
 🚀 Project Overview
-The Crop Disease Detection System is an AI-powered web application built using Streamlit and TensorFlow. It helps in detecting diseases in plant leaves by analyzing uploaded images. The system is trained on real-world crop disease datasets and aims to assist farmers in taking early action against infections to minimize yield loss.
+The Crop Disease Detection System is an AI-powered web application built using Streamlit and TensorFlow. It helps in detecting diseases in plant leaves by analyzing uploaded images.
+The system is trained on real-world crop disease datasets and aims to assist farmers in taking early action against infections to minimize yield loss.
+
 ⚙️ How It Works
 Upload an Image
 On the "Disease Recognition" page, upload a plant leaf image that shows possible symptoms of disease.
@@ -45,7 +48,7 @@ The system displays the prediction result along with the name of the disease and
 🌱 Supports sustainable farming
 
 🌐 App Preview
-![Home Page](home_page.jpeg)
+![main_website](main_website.jpg)
 
 📁 Folder Structure
 
@@ -60,17 +63,15 @@ CropDiseaseDetectionSystem/
 ├── trained_model.keras            # Saved trained model
 ├── training_history.png           # Model accuracy/loss graph
 ├── home_page.jpeg                 # Homepage image
-└── main_website.jpg               # App screenshot
-
-
+└── main_website.jpeg              # App screenshot
 🧪 How to Run the Project
+1. Clone the repository:
 
-1 Clone the repository:
 git clone https://github.com/your-username/crop-disease-detection.git
 cd crop-disease-detection
-2 Install all dependencies:
-Edit
-pip install -r requirements.txt
-3 Launch the Streamlit app:
-streamlit run main.py
+2. Install all dependencies:
 
+pip install -r requirements.txt
+3. Launch the Streamlit app:
+
+streamlit run main.py
