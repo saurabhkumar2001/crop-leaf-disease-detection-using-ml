@@ -45,6 +45,7 @@ The system displays the prediction result along with the name of the disease and
 🌱 Supports sustainable farming
 
 🌐 App Preview
+![Home Page](home_page.jpeg)
 
 📁 Folder Structure
 
